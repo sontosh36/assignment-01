@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+/* shared style */
+.primary-color {
+  color: #4e47ff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+.text-center {
+  text-align: center;
+}
+.btn {
+  padding: 12px 36px;
+  background-color: #4e47ff;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  color: #ffffff;
+}
+/* nav style */
+header {
+  background-image: url("../images/Hero-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 1440px;
+  height: 600px;
+  padding: 50px 0px;
+}
+.container {
+  width: 79.16%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 158px;
+}
+.logo {
+  font-size: 34px;
+  font-family: "Inter", sans-serif;
+  width: 99px;
+  height: 51px;
+}
+/* hero section style */
+.hero-section {
+  width: 905px;
+  height: 237px;
+  margin: 0 auto;
+  padding-bottom: 200px;
+}
+.hero-title {
+  font-size: 65px;
+  font-weight: bold;
+  color: #252432;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  margin-bottom: 37px;
+}
+/* action section style */
+.action-content {
+  width: 517px;
+  font-family: "Raleway", sans-serif;
+}
+.action-title {
+  font-weight: bold;
+  font-size: 42px;
+  color: #252432;
+  margin-bottom: 24px;
+}
+.action-description {
+  font-weight: normal;
+  line-height: 30px;
+  font-size: 24px;
+  color: #252432;
+  margin-bottom: 24px;
+}
+.action-image {
+  width: 403px;
+}
+.action-image img {
+  width: 100%;
+  border-radius: 48px;
+}
+.action-container {
+  width: 79.16%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 80px auto;
+}
+/* user information style */
+.user-count-container {
+  display: flex;
+  justify-content: space-around;
+}
+.user-information {
+  width: 79.16%;
+  margin: 100px auto;
+  padding: 50px 80px;
+  background-color: #4e47ff40;
+  border-radius: 24px;
+}
+.information-title {
+  margin-bottom: 40px;
+  font-weight: bold;
+  font-size: 35px;
+  color: #252432;
+}
+.user-count h2 {
+  font-size: 80px;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+}
+.user-count p {
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+}
