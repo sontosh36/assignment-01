@@ -66,13 +66,14 @@ header {
 }
 /* hero section style */
 .hero-section {
-  width: 905px;
+  width: 890px;
   height: 237px;
   margin: 0 auto;
   padding-bottom: 200px;
 }
 .hero-title {
-  font-size: 65px;
+  font-size: 55px;
+  line-height: 70px;
   font-weight: bold;
   color: #252432;
   font-family: "Raleway", sans-serif;
